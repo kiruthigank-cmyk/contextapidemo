@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kiruthigank-cmyk.github.io/contextapidemo/static/css/main.e6c13ad2.css",
+    "main.js": "/kiruthigank-cmyk.github.io/contextapidemo/static/js/main.e8f400ad.js",
+    "static/js/453.2caf3c4a.chunk.js": "/kiruthigank-cmyk.github.io/contextapidemo/static/js/453.2caf3c4a.chunk.js",
+    "index.html": "/kiruthigank-cmyk.github.io/contextapidemo/index.html",
+    "main.e6c13ad2.css.map": "/kiruthigank-cmyk.github.io/contextapidemo/static/css/main.e6c13ad2.css.map",
+    "main.e8f400ad.js.map": "/kiruthigank-cmyk.github.io/contextapidemo/static/js/main.e8f400ad.js.map",
+    "453.2caf3c4a.chunk.js.map": "/kiruthigank-cmyk.github.io/contextapidemo/static/js/453.2caf3c4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e8f400ad.js"
+  ]
+}
