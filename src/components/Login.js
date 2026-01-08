@@ -4,22 +4,22 @@ import { LoginContext } from '../contexts/LoginContext'
 //import { useState } from 'react'
 
 function Login() {
-    const {setName,setProfileInfo}=useContext(LoginContext)
+    const {name,setName,pwd,setPwd,profileinfo,setProfileInfo}=useContext(LoginContext)
     // const [name,setName]=useState("")
     // const [pwd,setPwd]=useState("")
-    // const [profileinfo,setProfileInfo]=useState(false)
-    // const show=()=>{
-    //     if (name==="kiruthiga" && pwd==="admin@123")
-    //         setProfileInfo(true)
-    //     else
-    //         setProfileInfo(false)
-    // }
+    //  const [profileinfo,setProfileInfo]=useState(false)
+    const show=()=>{
+    if (name==="kiruthiga" && pwd==="admin@123")
+             setProfileInfo(true)
+         else
+             setProfileInfo(false)
+     }
   return (
     <div>
       <input type='text' onChange={(e)=>setName(e.target.value)}  placeholder='Enter Name'></input><br></br>
-      <input type='password' placeholder='Enter Password'></input><br></br>
-      <input type="button" onClick={()=>setProfileInfo(true)} value="login"></input><br></br>
-      {/* {(profileinfo && "valid user: "+name+"!") || "Invalid User!!!!!!"}  */}
+      <input type='password' onChange={(e)=>setPwd(e.target.value)} placeholder='Enter Password'></input><br></br>
+      <input type="button" onClick={()=>show()} value="login"></input><br></br>
+      {profileinfo===false && <font color="red"> "Invalid User!!!!!!"</font>}  
     </div>
   )
 }
